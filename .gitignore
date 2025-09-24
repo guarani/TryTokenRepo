@@ -1,9 +1,6 @@
 # Dependencies
 node_modules/
 
-# Build outputs
-build/
-
 # Temporary/processed files
 tokens-processed.json
 tokens-simple.json
