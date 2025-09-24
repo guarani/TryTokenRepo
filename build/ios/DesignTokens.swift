@@ -20,7 +20,7 @@ public class DesignTokens {
     public static let colorsBlue800 = #2c5282
     public static let colorsBlue900 = #2a4365
     public static let colorsGray100 = #f7fafc
-    public static let colorsGray200 = #3333ff
+    public static let colorsGray200 = #fbff00
     public static let colorsGray300 = #e2e8f0
     public static let colorsGray400 = #cbd5e0
     public static let colorsGray500 = #a0aec0
