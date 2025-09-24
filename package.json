@@ -1,12 +1,17 @@
 {
   "name": "try-token-repo",
   "version": "1.0.0",
+  "type": "module",
   "description": "Design tokens for iOS app",
   "scripts": {
-    "build": "style-dictionary build",
+    "preprocess": "node preprocess-tokens.js",
+    "build": "npm run preprocess && style-dictionary build --config style-dictionary.config.js",
     "clean": "style-dictionary clean"
   },
   "devDependencies": {
-    "style-dictionary": "^4.0.0"
+    "style-dictionary": "^5.0.4"
+  },
+  "dependencies": {
+    "@tokens-studio/sd-transforms": "^2.0.1"
   }
 }
