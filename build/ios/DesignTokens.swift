@@ -20,7 +20,7 @@ public class DesignTokens {
     public static let colorsBlue800 = UIColor(red: 0.173, green: 0.322, blue: 0.510, alpha: 1)
     public static let colorsBlue900 = UIColor(red: 0.165, green: 0.263, blue: 0.396, alpha: 1)
     public static let colorsGray100 = UIColor(red: 0.969, green: 0.980, blue: 0.988, alpha: 1)
-    public static let colorsGray200 = UIColor(red: 0.000, green: 1.000, blue: 0.804, alpha: 1) /** cyan */
+    public static let colorsGray200 = UIColor(red: 1.000, green: 0.000, blue: 0.000, alpha: 1) /** red */
     public static let colorsGray300 = UIColor(red: 0.886, green: 0.910, blue: 0.941, alpha: 1)
     public static let colorsGray400 = UIColor(red: 0.796, green: 0.835, blue: 0.878, alpha: 1)
     public static let colorsGray500 = UIColor(red: 0.627, green: 0.682, blue: 0.753, alpha: 1)
