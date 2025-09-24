@@ -14,13 +14,15 @@ export default {
         expandTypography: true,
         expandShadow: true,
         expandComposition: true,
-        expandBorder: true
+        expandBorder: true,
+        resolveMath: true
       }
     }
   ], // This is required for v0.16.0+
   platforms: {
     'ios-swift': {
-      transformGroup: 'tokens-studio',
+      transformGroup: 'ios-swift',
+      transforms: ['ts/resolveMath'],
       buildPath: 'build/ios/',
       files: [
         {
