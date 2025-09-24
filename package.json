@@ -1,0 +1,12 @@
+{
+  "name": "try-token-repo",
+  "version": "1.0.0",
+  "description": "Design tokens for iOS app",
+  "scripts": {
+    "build": "style-dictionary build",
+    "clean": "style-dictionary clean"
+  },
+  "devDependencies": {
+    "style-dictionary": "^4.0.0"
+  }
+}
